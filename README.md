@@ -50,17 +50,17 @@ O sistema agora opera com **Runtime Discovery**, sendo capaz de identificar nova
 ### 1. Testes Unitários e Reflexão
 *Comprovando que a lógica de juros está correta e que o mecanismo de reflexão carrega as 4 estratégias dinamicamente.*
 
-![Evidência Testes](docs/.png)
+![Evidência Testes](docs/teste_unitario.png)
 
 ### 2. Processamento Assíncrono (Threads)
 *Comprovando via log que o pagamento é processado em uma thread dedicada (`pool-X-thread-Y`), liberando a thread HTTP.*
 
-![Evidência Threads](docs/.png)
+![Evidência Threads](docs/threads.png)
 
 ### 3. Funcionamento da API (Polimorfismo)
 *Demonstração de pagamento via **CARTÃO** (com juros aplicados) e **BOLETO** (juro zero), provando que a estratégia correta foi selecionada.*
 
-![Evidência API](docs/.png)
+![Evidência API](docs/api_swagger.png)
 ---
 
 ## Tecnologias Utilizadas
