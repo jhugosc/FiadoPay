@@ -73,9 +73,8 @@ O sistema agora opera com **Runtime Discovery**, sendo capaz de identificar nova
 
 1.  **Clonar o Repositório:**
     ```bash
-    git clone [https://github.com/jhugosc/FiadoPay.git](https://github.com/jhugosc/FiadoPay.git)
+    git clone [https://github.com/jhugosc/FiadoPay.git](https://github.com/jhugosc/FiadoPay.git) ```
     cd FiadoPay
-    ```
 
 2.  **Compilar e Testar:**
     ```bash
