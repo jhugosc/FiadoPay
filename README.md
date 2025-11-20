@@ -1,8 +1,13 @@
 # FiadoPay (Backend Refactoring) - Opção 1
 
-**Aluno:** Davi Mendes Almeida, Diogo Manoel dos Anjos Negreiros, João Hugo Santana de Carvalho
 **Disciplina:** Programação Orientada a Objetos Avançada
+
 **Data:** 21/11/2025
+
+**Alunos:**
+* Davi Mendes Almeida
+* Diogo Manoel dos Anjos Negreiros
+* João Hugo Santana de Carvalho
 
 ---
 
@@ -45,7 +50,7 @@ O sistema agora opera com **Runtime Discovery**, sendo capaz de identificar nova
 ### 1. Testes Unitários e Reflexão
 *Comprovando que a lógica de juros está correta e que o mecanismo de reflexão carrega as 4 estratégias dinamicamente.*
 
-![Evidência Testes](https://ibb.co/DHW0Hzj2)
+![Evidência Testes](https://i.ibb.co/pBwYBbkF/evidencias-tests.png)
 
 ### 2. Processamento Assíncrono (Threads)
 *Comprovando via log que o pagamento é processado em uma thread dedicada (`pool-X-thread-Y`), liberando a thread HTTP.*
