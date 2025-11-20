@@ -106,9 +106,7 @@ O sistema agora opera com **Runtime Discovery**, sendo capaz de identificar nova
 
 ---
 
-## Roteiro de Teste Manual
-
-Para validar o funcionamento completo:
+## Roteiro de Teste Manual para validar o funcionamento completo:
 
 1.  **Criar Lojista:** `POST /fiadopay/admin/merchants` (Copie o ID gerado).
 2.  **Autenticar:** Use o token `FAKE-{ID}` no botão Authorize.
