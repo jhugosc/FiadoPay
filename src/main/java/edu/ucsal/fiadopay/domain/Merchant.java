@@ -20,6 +20,7 @@ public class Merchant {
 
     private String webhookUrl;
 
+    @Builder.Default
     @Enumerated(EnumType.STRING)
     private Status status = Status.ACTIVE;
 

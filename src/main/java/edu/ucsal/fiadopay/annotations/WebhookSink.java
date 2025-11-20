@@ -1,0 +1,13 @@
+package edu.ucsal.fiadopay.annotations;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+public @interface WebhookSink {
+    String description() default "Generic Webhook Handler";
+    boolean active() default true;
+}
